@@ -2,6 +2,8 @@
 Exploring the limits of Q-learning guided by optimisation
 heuristics to solve the pocket Rubik’s cube. A project done under the module "Autonomous Robotic Systems" at the University of Nottingham Malaysia
 
+This project uses Open AI gym and the 2x2 Rubiks cube enviroment by @DoubleGremlin181 (https://github.com/DoubleGremlin181)
+
 
 # Basis of the project
 In this project, the rubiks cube is used as an enviroment to test how well different pathfinding algorithms (3-opt, Genetic algorithm and Simulated Annealing) are able to improve the abilities of Q-learning. Usually, reinforcement learning algorithms struggle with pathfinding problems as reward schemes are difficult to organise. As such, we try to use the path finding algorithms as a guiding method for reinforcement learning
